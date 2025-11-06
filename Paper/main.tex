@@ -1,0 +1,114 @@
+%%
+%%                  TEMPLATE for Math 402/436 project report
+%%
+\documentclass[11pt]{amsart}
+%%% WARNING: Do NOT change the page size, fonts, or margins!  Penalties will apply.
+
+
+\usepackage{graphicx}
+\usepackage{amssymb,amsmath,amsthm}
+\usepackage{placeins} %enables \FloatBarrier, which prevents figures and tables from going below it.
+\usepackage{hyperref} %makes cross references into hyperlinks. 
+\usepackage{caption}
+\usepackage{subcaption} %Allows subfigures
+ 
+
+%%% WARNING: Do NOT change the page size, fonts, or margins!  Penalties will apply.
+%%% WARNING: Do NOT change the page size, fonts, or margins!  Penalties will apply.
+
+\begin{document}
+
+\title{Legal Gambling: Predicting the Future Price of Bitcoin}
+\author{Ethan Palenske, Rowan Williams}
+
+% Change the date to match the date you actually wrote this paper
+\date{%today} % or use \today
+
+\maketitle % this actually makes the title
+
+\begin{abstract}
+Place abstract here. The abstract summarizes in one paragraph the main question and conclusions draw from your investigation.
+\end{abstract}
+
+%% First Section
+\section{Research question and overview of the data }
+
+ The quality of the research question(s) you are asking plays a big role in how good the entire project is. Make a clear case for why your question is interesting, well thought out, precisely formulated, and answerable, at least in principle, with adequate data and the techniques of machine learning.
+
+    Briefly review what is already known about your research questions and what techniques others have used to study these questions. The best written reports include references to prior work.
+    Explain the data set, before analysis. Form a thoughtful hypothesis or hypotheses about the data. Answer the following questions and any others that may be relevant to your question and your data set:
+    \begin{itemize}
+        \item What weaknesses or problems does the data set have?
+        \item Why is this a good choice of data set to answer your research questions (as opposed to other similar data sets)?
+        \item What do you expect your analysis to reveal?
+        \item What other interesting questions will analyzing this data answer?
+        \end{itemize}
+
+
+Also reference articles and sources \cite{Vandermeersch} that are relevant or that you used when learning and/or thinking about your project. You should also reference prior work that has considered similar questions.
+
+\begin{figure}[tph] %Put your images in a figure like this (or like in the Volume 4 template
+     \centering
+      \begin{subfigure}[b]{0.45\textwidth}
+         \centering
+	   \includegraphics[width=.95\linewidth]{crossover1.png}
+     \end{subfigure}
+     \begin{subfigure}[b]{0.45\textwidth}
+         \centering
+	   \includegraphics[width=.95\linewidth]{crossover2.png}
+     \end{subfigure}
+     \caption[Behavior near $1/\sqrt{5}$]{Plots should be high resolution (pdf 300dpi), uncluttered, a reasonable size, and easily readable and understandable.  All figures should have a complete caption that helps the reader make sense of the figure even if they haven't read the paper yet. Here is an example: In these plots we consider the behavior of $p_1$ near $\alpha = 1/\sqrt{5}$ for several values of $n$.  The $x$ axis is the value of $\alpha$ and the $y$ axis is the value of $p_1$ The plot on the right is a zoomed in version of the one on the left.  The value $\alpha = 1/\sqrt{5}$ is indicated by a dashed line. We note that even under high magnification there is essentially no difference between $n= 20$ and $n =30$, which provides further evidence of the convergence of these functions as $n \to \infty$.}
+
+\label{fig:MeanSquaredError} % for automatic cross referencing
+\end{figure}
+
+
+
+%% Second Section 
+\section{Data Cleaning / Feature Engineering }
+
+  Tell us what you did when you were cleaning your data and engineering features.  Why did you make the choices that you did?  What are the consequences of those choices?
+
+
+%% Third Section
+\section{Data Visualization and Basic Analysis}
+Analyze the data, draw conclusions, and effectively communicate your main observations and results.
+\begin{itemize}
+    \item Calculate appropriate summary statistics.
+    \item Use appropriate plotting techniques, visualizations, and other tools and techniques you have learned, to thoughtfully identify and evaluate what the data are telling you,how well suited the data are to answering your problem,
+
+    \item Reference figures and plots, like Figure~\ref{fig:MeanSquaredError}.
+\end{itemize}
+
+
+
+%%Fourth Section
+\section{Learning Algorithms and In-depth Analysis }
+
+ Analyze the data using the machine learning techniques discussed in class. Explain what research questions you can answer using the  machine learning techniques presented this semester, and if applicable, what you think you may be able to answer next semester.
+
+Be able to explain the results of your analysis, whether the results are meaningful, and why you chose the tools that you used.  
+
+%%Fifth Section
+\section{Ethical Implications and Conclusions}
+Thoughtfully analyze the ethical implications of your research questions, the data you gathered, and the analysis that was performed.  Are there privacy or other implications from the collection or use of the data?  Could your results and methods be misused or misunderstood?  What can and should be done to prevent misuse and misunderstanding?  Could your algorithms and methods result in a destructive self-fulfilling feedback loop?  How could that be prevented or controlled?  What other ethical implications does your work have?  
+
+
+This part should all be done before you get to \emph{page 5}.  The bibliography can spill on to page 6, but we won't read text that goes past page 5.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Bibliography below
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\FloatBarrier % Keep the figures from being put after the bibliography
+\newpage
+%% If using bibtex, leave this uncommented
+\bibliography{refs} %if using bibtex, call your bibtex file refs.bib
+\bibliographystyle{alpha}
+
+%% If not using bibtex, comment out the previous two lines and uncomment those below
+%\begin{thebibliography}{99}
+%\bibitem{Vandermeersch} First reference goes here
+%\end{thebibliography}
+
+\end{document}

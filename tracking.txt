@@ -1,2 +1,0 @@
-data cleaning:
-- Added column headers to the dataset

@@ -1,0 +1,9 @@
+id: RF-C2
+description: RF classifier 200 trees, scan tau on OOB profit
+mean_profit: 0.7404804220053878
+median_profit: 0.7404804220053878
+mean_sharpe: 2.310101035031066
+mean_drawdown: -0.1742661582983289
+mean_win_rate: 0.24161073825503357
+mean_f1: 0.658008658008658
+oob_accuracy: 0.7205776173285199

@@ -1,0 +1,9 @@
+id: RF-C3
+description: RF classifier 500 trees, tau via F1, OOB importance
+mean_profit: 10.380135079287017
+median_profit: 10.380135079287017
+mean_sharpe: 5.18782144006046
+mean_drawdown: -0.20440062476470952
+mean_win_rate: 0.5268456375838926
+mean_f1: 0.8532608695652174
+oob_accuracy: 0.7509025270758123

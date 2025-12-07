@@ -1,0 +1,11 @@
+id: RF-R1
+description: RF regressor 50 trees, small max_features, OOB
+mean_profit: 4.207377134456196
+median_profit: 4.207377134456196
+mean_sharpe: 4.762218724724632
+mean_drawdown: -0.22949560257145515
+mean_win_rate: 0.38926174496644295
+mean_mae: 0.01327987905276526
+mean_rmse: 0.018692927647396107
+oob_mae: 0.01638795424096011
+oob_rmse: 0.026535798207300273

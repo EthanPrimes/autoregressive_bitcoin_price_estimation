@@ -1,0 +1,9 @@
+id: RF-C1
+description: RF classifier 50 trees, tau=0.5, OOB
+mean_profit: 25.589656216984945
+median_profit: 25.589656216984945
+mean_sharpe: 7.567919118778122
+mean_drawdown: -0.11186821190268878
+mean_win_rate: 0.5033333333333333
+mean_f1: 0.8735632183908046
+oob_accuracy: 0.7211469534050179

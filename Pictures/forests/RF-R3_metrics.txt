@@ -1,0 +1,11 @@
+id: RF-R3
+description: RF regressor 500 trees, strong decorrelation, OOB
+mean_profit: 1.107289234194711
+median_profit: 1.107289234194711
+mean_sharpe: 5.610381898647559
+mean_drawdown: -0.01066909003073651
+mean_win_rate: 0.6677852348993288
+mean_mae: 0.00831066043290767
+mean_rmse: 0.014629541805861214
+oob_mae: 0.013248488309848167
+oob_rmse: 0.02280585103409633

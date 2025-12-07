@@ -1,0 +1,8 @@
+id: T-C2
+description: Medium DecisionTreeClassifier, scan tau to maximize profit
+mean_profit: 0.8179205552554756
+median_profit: 0.8179205552554756
+mean_sharpe: 1.3503513325965053
+mean_drawdown: -0.2991106194177949
+mean_win_rate: 0.4664429530201342
+mean_f1: 0.6682692307692307

@@ -1,0 +1,11 @@
+id: RF-R2
+description: RF regressor 200 trees, medium max_features, OOB
+mean_profit: 2.25482776475102
+median_profit: 2.25482776475102
+mean_sharpe: 4.2377092043997555
+mean_drawdown: -0.12324752802259636
+mean_win_rate: 0.37583892617449666
+mean_mae: 0.009912058445913318
+mean_rmse: 0.01578617941132586
+oob_mae: 0.015802104228682865
+oob_rmse: 0.024887597322535

@@ -1,8 +1,8 @@
 id: T-C3
 description: Deeper DecisionTreeClassifier, tau from F1
-mean_profit: 1.4002826701181772
-median_profit: 1.4002826701181772
-mean_sharpe: 2.513145657779028
-mean_drawdown: -0.21226600216235206
-mean_win_rate: 0.4228187919463087
-mean_f1: 0.6792452830188679
+mean_profit: 2.155790019231648
+median_profit: 1.9991495520242852
+mean_sharpe: 2.1535842733497566
+mean_drawdown: -0.2604389933110007
+mean_win_rate: 0.4543624161073826
+mean_f1: 0.6974641367275826

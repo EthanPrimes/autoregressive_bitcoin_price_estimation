@@ -1,9 +1,9 @@
 id: T-R3
 description: Deeper tree with position sizing proportional to y_hat
-mean_profit: 0.292187179055748
-median_profit: 0.292187179055748
-mean_sharpe: 1.160420382192055
-mean_drawdown: -0.24865497475250095
-mean_win_rate: 0.4597315436241611
-mean_mae: 0.01989118117980656
-mean_rmse: 0.028876745113181404
+mean_profit: 0.5837967625834097
+median_profit: 0.7400759316742053
+mean_sharpe: 2.0483087612685553
+mean_drawdown: -0.1253789682506365
+mean_win_rate: 0.5020134228187919
+mean_mae: 0.022125153328411862
+mean_rmse: 0.031138791774072527

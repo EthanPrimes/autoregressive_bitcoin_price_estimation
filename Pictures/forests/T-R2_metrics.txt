@@ -1,9 +1,9 @@
 id: T-R2
 description: Medium depth DecisionTreeRegressor, buy if y_hat>cost
-mean_profit: 2.084410302414815
-median_profit: 2.084410302414815
-mean_sharpe: 2.7094055139067605
-mean_drawdown: -0.19813187159507295
-mean_win_rate: 0.5268456375838926
-mean_mae: 0.018101262308088246
-mean_rmse: 0.025290601146195957
+mean_profit: 0.270298216712968
+median_profit: 0.2878858032021254
+mean_sharpe: 0.7796926647433167
+mean_drawdown: -0.2801800715028221
+mean_win_rate: 0.28959731543624156
+mean_mae: 0.020742867224564178
+mean_rmse: 0.029452349297800495

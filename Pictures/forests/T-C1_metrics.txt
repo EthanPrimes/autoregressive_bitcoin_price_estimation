@@ -1,8 +1,8 @@
 id: T-C1
 description: Shallow DecisionTreeClassifier, tau=0.5
-mean_profit: 0.42362570445993764
-median_profit: 0.42362570445993764
-mean_sharpe: 1.0368999113608575
-mean_drawdown: -0.33401598413457007
-mean_win_rate: 0.2733333333333333
-mean_f1: 0.5420560747663551
+mean_profit: 0.2509022238626454
+median_profit: 0.14485997308784493
+mean_sharpe: 0.41021450255273395
+mean_drawdown: -0.32947787418949853
+mean_win_rate: 0.30233333333333334
+mean_f1: 0.5422879515182399
